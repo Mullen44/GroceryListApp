@@ -7,18 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16B322DF27FBDDA500F3F469 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B322DE27FBDDA500F3F469 /* Model.swift */; };
+		16B322E127FBDDB700F3F469 /* ContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B322E027FBDDB700F3F469 /* ContentModel.swift */; };
 		16CA0EE727F8C99300E77007 /* GroceryListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16CA0EE627F8C99300E77007 /* GroceryListApp.swift */; };
-		16CA0EE927F8C99300E77007 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16CA0EE827F8C99300E77007 /* ContentView.swift */; };
+		16CA0EE927F8C99300E77007 /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16CA0EE827F8C99300E77007 /* TabView.swift */; };
 		16CA0EEB27F8C99500E77007 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16CA0EEA27F8C99500E77007 /* Assets.xcassets */; };
 		16CA0EEE27F8C99500E77007 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16CA0EED27F8C99500E77007 /* Preview Assets.xcassets */; };
+		16CA0EF827F8CD2000E77007 /* AtHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16CA0EF727F8CD2000E77007 /* AtHome.swift */; };
+		16CA0EFA27F8CD3D00E77007 /* AtStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16CA0EF927F8CD3D00E77007 /* AtStore.swift */; };
+		16CA0EFC27F8CD4C00E77007 /* GroceryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16CA0EFB27F8CD4C00E77007 /* GroceryList.swift */; };
+		16CA0EFE27F8E31C00E77007 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 16CA0EFD27F8E31C00E77007 /* GoogleService-Info.plist */; };
+		16CA0F0027F8E39E00E77007 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 16CA0EFF27F8E39E00E77007 /* GoogleService-Info.plist */; };
+		715D5C89CED604D4C5EE88B8 /* Pods_GroceryList.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2952A058C0BB79873CB81C95 /* Pods_GroceryList.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		009F8D93B4B0713082CCFF15 /* Pods-GroceryList.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GroceryList.release.xcconfig"; path = "Target Support Files/Pods-GroceryList/Pods-GroceryList.release.xcconfig"; sourceTree = "<group>"; };
+		16B322DE27FBDDA500F3F469 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		16B322E027FBDDB700F3F469 /* ContentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentModel.swift; sourceTree = "<group>"; };
 		16CA0EE327F8C99200E77007 /* GroceryList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GroceryList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16CA0EE627F8C99300E77007 /* GroceryListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryListApp.swift; sourceTree = "<group>"; };
-		16CA0EE827F8C99300E77007 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		16CA0EE827F8C99300E77007 /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
 		16CA0EEA27F8C99500E77007 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		16CA0EED27F8C99500E77007 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		16CA0EF727F8CD2000E77007 /* AtHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtHome.swift; sourceTree = "<group>"; };
+		16CA0EF927F8CD3D00E77007 /* AtStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtStore.swift; sourceTree = "<group>"; };
+		16CA0EFB27F8CD4C00E77007 /* GroceryList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryList.swift; sourceTree = "<group>"; };
+		16CA0EFD27F8E31C00E77007 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = "GoogleService-Info.plist"; path = "GroceryList/GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		16CA0EFF27F8E39E00E77007 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2952A058C0BB79873CB81C95 /* Pods_GroceryList.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GroceryList.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9143570F83DF31B28979A1D5 /* Pods-GroceryList.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GroceryList.debug.xcconfig"; path = "Target Support Files/Pods-GroceryList/Pods-GroceryList.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				715D5C89CED604D4C5EE88B8 /* Pods_GroceryList.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,6 +56,8 @@
 			children = (
 				16CA0EE527F8C99200E77007 /* GroceryList */,
 				16CA0EE427F8C99200E77007 /* Products */,
+				D1DE70512BF8AA4FAB47C78C /* Pods */,
+				C0A0B50097E09E84FE36544D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,8 +73,11 @@
 			isa = PBXGroup;
 			children = (
 				16CA0EE627F8C99300E77007 /* GroceryListApp.swift */,
-				16CA0EE827F8C99300E77007 /* ContentView.swift */,
+				16CA0EF427F8CBB000E77007 /* Views */,
+				16CA0EF527F8CBC300E77007 /* ViewModels */,
+				16CA0EF627F8CBD500E77007 /* Models */,
 				16CA0EEA27F8C99500E77007 /* Assets.xcassets */,
+				16CA0EFF27F8E39E00E77007 /* GoogleService-Info.plist */,
 				16CA0EEC27F8C99500E77007 /* Preview Content */,
 			);
 			path = GroceryList;
@@ -62,9 +86,54 @@
 		16CA0EEC27F8C99500E77007 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				16CA0EFD27F8E31C00E77007 /* GoogleService-Info.plist */,
 				16CA0EED27F8C99500E77007 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		16CA0EF427F8CBB000E77007 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				16CA0EE827F8C99300E77007 /* TabView.swift */,
+				16CA0EF727F8CD2000E77007 /* AtHome.swift */,
+				16CA0EF927F8CD3D00E77007 /* AtStore.swift */,
+				16CA0EFB27F8CD4C00E77007 /* GroceryList.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		16CA0EF527F8CBC300E77007 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				16B322E027FBDDB700F3F469 /* ContentModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		16CA0EF627F8CBD500E77007 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				16B322DE27FBDDA500F3F469 /* Model.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C0A0B50097E09E84FE36544D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2952A058C0BB79873CB81C95 /* Pods_GroceryList.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D1DE70512BF8AA4FAB47C78C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9143570F83DF31B28979A1D5 /* Pods-GroceryList.debug.xcconfig */,
+				009F8D93B4B0713082CCFF15 /* Pods-GroceryList.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +143,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 16CA0EF127F8C99500E77007 /* Build configuration list for PBXNativeTarget "GroceryList" */;
 			buildPhases = (
+				5FCCDDD60C94998A1DA120C9 /* [CP] Check Pods Manifest.lock */,
 				16CA0EDF27F8C99200E77007 /* Sources */,
 				16CA0EE027F8C99200E77007 /* Frameworks */,
 				16CA0EE127F8C99200E77007 /* Resources */,
+				23A019B8EC36C16AA7938BB5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,18 +197,67 @@
 			buildActionMask = 2147483647;
 			files = (
 				16CA0EEE27F8C99500E77007 /* Preview Assets.xcassets in Resources */,
+				16CA0F0027F8E39E00E77007 /* GoogleService-Info.plist in Resources */,
 				16CA0EEB27F8C99500E77007 /* Assets.xcassets in Resources */,
+				16CA0EFE27F8E31C00E77007 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		23A019B8EC36C16AA7938BB5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GroceryList/Pods-GroceryList-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GroceryList/Pods-GroceryList-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GroceryList/Pods-GroceryList-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5FCCDDD60C94998A1DA120C9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GroceryList-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		16CA0EDF27F8C99200E77007 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16CA0EE927F8C99300E77007 /* ContentView.swift in Sources */,
+				16CA0EE927F8C99300E77007 /* TabView.swift in Sources */,
+				16CA0EF827F8CD2000E77007 /* AtHome.swift in Sources */,
+				16CA0EFC27F8CD4C00E77007 /* GroceryList.swift in Sources */,
+				16B322DF27FBDDA500F3F469 /* Model.swift in Sources */,
+				16CA0EFA27F8CD3D00E77007 /* AtStore.swift in Sources */,
+				16B322E127FBDDB700F3F469 /* ContentModel.swift in Sources */,
 				16CA0EE727F8C99300E77007 /* GroceryListApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,6 +383,7 @@
 		};
 		16CA0EF227F8C99500E77007 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9143570F83DF31B28979A1D5 /* Pods-GroceryList.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -292,6 +413,7 @@
 		};
 		16CA0EF327F8C99500E77007 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 009F8D93B4B0713082CCFF15 /* Pods-GroceryList.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
